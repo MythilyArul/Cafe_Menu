@@ -1,0 +1,32 @@
+.body {
+   background-color:honeydew;
+}
+.header {
+    background-image: url('/Menubar/images/doodles.jpg');
+    border: 1px solid black;
+}
+.header1
+{
+    color: rgb(20, 23, 20) ;
+    text-align:center;
+    font-family:'fantasy';
+}
+.image{
+    float:right;
+    border-radius: 50px;
+    margin-right: 50px; 
+    border: 1px solid brown;
+}
+.h1{
+    font-size:150%;
+    font-family:verdana;
+    color:brown ; 
+}
+.dd{
+    word-spacing: 35px;
+    text-align:center;
+    justify-content: space-between;
+}
+.list{
+    list-style-type:circle;
+}
