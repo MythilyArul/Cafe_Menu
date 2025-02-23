@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+
+  <body>
+    <p>Hello</p>
+    <p id="Hi">Hello</p>
+    <p id="hi"></p>
+    <!-- Using document.write() after an HTML document is loaded, will delete all existing HTML: -->
+    <button type="button" onclick="document.write(5+7)">Click Me</button>
+    <button type="button" onclick="window.print()">Print</button>
+    <script>
+      // using innerHTML
+      document.getElementById("Hi").innerHTML =
+        "Hello World! Printing using Javascript innerHTML";
+
+      // using innerText
+      document.getElementById("hi").innerText =
+        "Hello World! Printing using Javascript innerText";
+      // using document.write()
+      document.write(1 + 1 + "\n using document write");
+      //   window. alert()
+      window.alert("Alert Message");
+      //   console.log()
+      console.log("Hello World!");
+    </script>
+  </body>
+</html>

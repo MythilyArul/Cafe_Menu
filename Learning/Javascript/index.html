@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+
+  <body>
+    <p id="demo">HTML content</p>
+    <p id="Hi"></p>
+    <button
+      type="button"
+      onclick='document.getElementById("demo").innerHTML="HTML content changed by JavaScript!"'
+    >
+      Submit
+    </button>
+    <p>Check the console for JavaScript code</p>
+    <script>
+      console.log("Hello World!");
+      document.getElementById("Hi").innerHTML = "Hello World!";
+    </script>
+  </body>
+</html>
