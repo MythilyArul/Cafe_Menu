@@ -1,0 +1,13 @@
+var num1 = 10;
+var num2 = 20;
+var num3;
+num3 = num1 + num2;
+console.log("addition of 2 number" + num3);
+num3 = num1 - num2;
+console.log("sub of 2 number" + num3);
+num3 = num1 * num2;
+console.log("multiply of 2 number" + num3);
+num3 = num1 / num2;
+console.log("division of 2 number" + num3);
+num3 = num1/num2;
+console.log("modulus of 2 number" + num3);

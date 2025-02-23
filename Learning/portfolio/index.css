@@ -1,0 +1,37 @@
+.align{
+    float: right;
+    padding-right: 2%;
+}
+.clg{
+    
+    margin-left: 12.5%;
+}
+.container{
+    border: 5%;
+    border-color: black;
+}
+.body{
+    background-color:white;
+}
+.edu{
+    font-size: large;
+    font-weight: 500;
+}
+.image{
+   max-width: 10px;
+   max-height: 10px;
+}
+.text {
+    float: left;
+  }
+  .sk{
+    font-weight: 500;
+}
+.fa-phone{
+    float: left;
+    padding-top: 50%;
+}
+/* .fa-envelope{
+    float: left;
+    padding-top: 50%;
+} */
