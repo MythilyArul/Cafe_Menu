@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variable</title>
+  </head>
+  <body>
+    <p>Script Variables: Automatically, var,let and const.</p>
+    <p id="demo"></p>
+    <script>
+      // JavaScript identifiers are case-sensitive.
+      x = 5;
+      let y = 6;
+      const z = 7;
+      var a; //Only use var if you MUST support old browsers.
+      let b = "Five Star",
+        c = "Munch",
+        d = "Kitkat";
+      document.write((a = y + z + x));
+      document.write("\n" + typeof a);
+      //   One Statement, Many Variables
+      document.getElementById("demo").innerHTML = b + " " + c + " " + d;
+      //   Re-Declaring JavaScript Variables only work on var and not on let and const.
+      var carName = "volvo";
+      var carName;
+      document.write(carName);
+      let $ = 10;
+      let _ = 20;
+      document.write($ + _);
+      document.write("5" + $ + _);
+    </script>
+  </body>
+</html>
