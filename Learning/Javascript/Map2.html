@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map2</title>
+  </head>
+  <body>
+    <script>
+      const date = ["2025-02-22", "2025-01-16", "2025-03-02", "2025-04-30"];
+      const formateddate = date.map(formatdate);
+      console.log(formateddate);
+      function formatdate(element) {
+        const parts = element.split("-");
+        return `${parts[2]}-${parts[1]}-${parts[0]}`;
+      }
+    </script>
+  </body>
+</html>

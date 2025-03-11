@@ -1,0 +1,37 @@
+<!-- .map() accepts a callback and applies that function to each element of an array then rturn a new array. 
+ does not change the orginal elements value as it create the new array -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map</title>
+  </head>
+  <body>
+    <script>
+      const numbers = [1, 2, 3, 4, 5];
+      const squares = numbers.map(square);
+      const cubes = numbers.map(cube);
+      const names = ["Mythily", "Karthikeyan", "Dhanalakshmi"];
+      const upperCases = names.map(uppercase);
+      const lowerCases = names.map(lowercase);
+      console.log(squares);
+      console.log(cubes);
+      console.log(upperCases);
+      console.log(lowerCases);
+      function square(numbers) {
+        return Math.pow(numbers, 2);
+      }
+      function cube(numbers) {
+        return Math.pow(numbers, 3);
+      }
+
+      function uppercase(element) {
+        return element.toUpperCase();
+      }
+      function lowercase(element) {
+        return element.toLowerCase();
+      }
+    </script>
+  </body>
+</html>

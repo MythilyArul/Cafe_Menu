@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+
+    <script>
+      // Create an Object
+      const person = {
+        name: "Mythily",
+        age: 20,
+        isMarried: "No",
+      };
+      const fruit = { banana: 300, apple: 200, jackfruit: 500, orange: 100 };
+      // Stringify Object
+      //   let displayperson = JSON.stringify(person);
+      // objectenteries
+      //   the destructuring assignment[key, value] syntax unpack object properties into variables:
+      let text = " ";
+      for (let [key, value] of Object.entries(fruit)) {
+        text += key + ":" + value + "<br>";
+      }
+      // Create an Array
+      const myArray = Object.values(person);
+      //Loop
+      let text1 = " ";
+      for (let x in person) {
+        text1 += person[x] + " ";
+      }
+      // Display String
+      function display() {
+        document.getElementById("demo").innerHTML = text1;
+      }
+      display();
+    </script>
+  </body>
+</html>

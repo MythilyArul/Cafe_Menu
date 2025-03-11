@@ -1,0 +1,45 @@
+.container--style{
+    background-color:honeydew;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+.firstdiv--style{
+    right:40%;
+    transform: translateX(40%);
+}
+.lastdiv--style{
+    left: 40%;
+    transform: translateX(-40%);
+   
+}
+
+.vr{
+    border: 2px solid black;
+    height: 350px;
+    
+}
+.middle{
+    position: relative;
+    background: white;
+}
+.point{
+    position:absolute;
+    top:21%;
+    left: 51.5%;
+    transform: translateX(-90%);
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+/* }
+.point1{
+    position:absolute;
+    top:30%;
+    left: 51.5%;
+    transform: translateX(-90%);
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+} */
