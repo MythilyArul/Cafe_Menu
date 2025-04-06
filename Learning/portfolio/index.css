@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .align{
     float: right;
     padding-right: 2%;
@@ -10,9 +12,7 @@
     border: 5%;
     border-color: black;
 }
-.body{
-    background-color:white;
-}
+
 .edu{
     font-size: large;
     font-weight: 500;
@@ -24,8 +24,10 @@
 .text {
     float: left;
   }
+
   .sk{
     font-weight: 500;
+    font-style: bold;
 }
 .fa-phone{
     float: left;
@@ -35,3 +37,13 @@
     float: left;
     padding-top: 50%;
 } */
+ 
+body{
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+
+.hh {
+    font-family: "Roboto", sans-serif;
+   
+  }
