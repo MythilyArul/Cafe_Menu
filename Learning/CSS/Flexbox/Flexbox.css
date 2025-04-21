@@ -1,0 +1,36 @@
+.flex-container{
+    /* display:inline-flex; */
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; */
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  
+}
+.flex-container ul{
+    display: flex;
+    flex-direction: column;
+   
+    list-style: none;
+    padding: 100px;
+    
+}
+.flex-container li{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+   
+    align-content: center ;
+   justify-content: flex-start;
+    height: 50px;
+    width: 150px;
+}
+
+body{
+    background-color:white;
+  
+    color: black;
+    height: 100%vh;
+    width: 100%vh;
+}

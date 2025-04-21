@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chuck Noris API</title>
+    <style>
+      body {
+        background-color: rgba(1, 2, 10, 0.927);
+        color: aliceblue;
+      }
+      .buttonIcon {
+        border: 1px solid beige;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 50px;
+      }
+      .button {
+        cursor: pointer;
+      }
+      p {
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+      }
+      .image {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Chuck Noris Joke API</p>
+      <hr />
+      <p id="joke">Press Load Joke for another joke...</p>
+      <div class="buttonIcon" id="lodingJoke">
+        <div class="button">Load Joke</div>
+      </div>
+      <script src="api.js"></script>
+      <div class="image">
+        <img src="./assets/image.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>

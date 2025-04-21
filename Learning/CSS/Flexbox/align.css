@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: stretch;
+    height: 200px;
+  
+    background-color: grey;
+
+}
+.container >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid black;
+}
